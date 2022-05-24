@@ -1,0 +1,32 @@
+{
+  "name": "uncentered",
+  "version": "0.1.0",
+  "description": "A JavaScript utility library for decentralised networking",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "rimraf radata && node test/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaunSHamilton/uncentered.git"
+  },
+  "keywords": [
+    "web3"
+  ],
+  "author": "Shaun Hamilton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShaunSHamilton/uncentered/issues"
+  },
+  "homepage": "https://github.com/ShaunSHamilton/uncentered#readme",
+  "dependencies": {
+    "gun": "^0.2020.1237",
+    "logover": "^1.3.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "rimraf": "^3.0.2"
+  }
+}
